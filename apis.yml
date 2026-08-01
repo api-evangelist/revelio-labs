@@ -1,7 +1,21 @@
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 aid: revelio-labs
 name: Revelio Labs
-description: Revelio Labs is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Revelio Labs is a workforce intelligence company that builds a universal HR
+  database from public professional profiles, job postings, employee reviews,
+  and WARN layoff notices. It maps more than 1.1 billion profiles across 20
+  million+ companies and 5,000+ skills into standardized datasets covering
+  workforce dynamics (headcount, hiring and attrition flows, transitions),
+  job postings (the COSMOS dataset), sentiment, layoffs, and individual-level
+  user, position, education, and skill files. The data is delivered through a
+  REST API, bulk data feeds, and an interactive dashboard, letting investors,
+  corporations, and researchers analyze companies, labor markets, and talent
+  trends in near real time.
 url: https://raw.githubusercontent.com/api-evangelist/revelio-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +23,71 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.reveliolabs.com/static/rl-logo-meta-image-96544d38919e52c97a23480ba1080d38.png
 tags:
 - Company
-apis: []
+- Workforce Intelligence
+- Labor Market Data
+- HR Analytics
+- Talent Analytics
+- People Analytics
+- Data
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: Revelio Labs Data API
+  description: >-
+    REST API for programmatic access to Revelio Labs' workforce intelligence
+    datasets — workforce dynamics, job postings (COSMOS), sentiment, layoffs,
+    and individual-level files — returning standardized company, role, skill,
+    geography, and demographic segments in near real time.
+  humanURL: https://www.data-dictionary.reveliolabs.com/
+  baseURL: https://api.reveliolabs.com
+  tags:
+  - Workforce Intelligence
+  - Labor Market Data
+  properties:
+  - type: Documentation
+    url: https://www.data-dictionary.reveliolabs.com/
 common:
+- type: DomainSecurity
+  url: security/revelio-labs-domain-security.yml
+- type: LLMsTxt
+  url: llms/revelio-labs-llms.txt
 - type: Website
   url: https://reveliolabs.com/
+- type: DeveloperPortal
+  url: https://www.data-dictionary.reveliolabs.com/
+- type: Documentation
+  url: https://www.data-dictionary.reveliolabs.com/
+- type: Blog
+  url: https://www.reveliolabs.com/blog/
+- type: SignUp
+  url: https://account.reveliolabs.com/signup
+- type: Login
+  url: https://account.reveliolabs.com/login
+- type: Support
+  url: https://www.reveliolabs.com/demo/
+- type: TermsOfService
+  url: https://www.reveliolabs.com/terms/
+- type: PrivacyPolicy
+  url: https://www.reveliolabs.com/privacy/
+- type: GitHubOrganization
+  url: https://github.com/reveliolabs

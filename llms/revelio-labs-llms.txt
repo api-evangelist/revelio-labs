@@ -1,0 +1,29 @@
+# Revelio Labs
+
+> Revelio Labs is a workforce intelligence company that builds a universal HR database from public professional profiles, job postings, employee reviews, and WARN layoff notices — mapping 1.1B+ profiles across 20M+ companies and 5,000+ skills into standardized datasets delivered via REST API, bulk data feeds, and an interactive dashboard.
+
+- Data is organized into datasets: Workforce Dynamics (headcount, hiring/attrition flows, transitions), Job Postings (COSMOS), Sentiment, Layoffs, and individual-level User / Position / Education / Skill files.
+- The public reference is the Data Dictionary; the API itself is gated behind an account and is not publicly documented via an OpenAPI specification.
+
+## APIs
+
+- [Revelio Labs Data API](https://www.data-dictionary.reveliolabs.com/): REST API for programmatic access to workforce dynamics, job postings, sentiment, layoffs, and individual-level datasets. Base host: https://api.reveliolabs.com
+
+## Docs
+
+- [Data Dictionary](https://www.data-dictionary.reveliolabs.com/): dataset definitions, fields, and reference
+- [Methodology](https://www.data-dictionary.reveliolabs.com/methodology.html): company mapping, sampling weights, taxonomies, salary/seniority inference
+- [FAQs](https://www.data-dictionary.reveliolabs.com/faq.html): trials, data, and modeling questions
+- [Blog](https://www.reveliolabs.com/blog/): workforce intelligence articles and use cases
+
+## Account
+
+- [Sign Up](https://account.reveliolabs.com/signup): create an account / start a trial
+- [Log In](https://account.reveliolabs.com/login): account portal
+- [Request a Demo](https://www.reveliolabs.com/demo/): talk to an expert
+
+## Legal
+
+- [Terms of Service](https://www.reveliolabs.com/terms/)
+- [Privacy Policy](https://www.reveliolabs.com/privacy/)
+- [GDPR Notice](https://www.reveliolabs.com/gdpr/)
